@@ -7,13 +7,6 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        
-        stage('From') {
-            steps {
-                echo 'From'
-            }
-        }
-        
         stage('Jenkins') {
             steps {
                 echo 'Jenkins'
