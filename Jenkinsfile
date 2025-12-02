@@ -17,5 +17,10 @@ pipeline {
                 echo 'Jenkins'
             }
         }
+        stage('Jenkins') {
+            steps {
+                echo 'Jenkins'
+            }
+        }
     }
 }
