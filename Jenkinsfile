@@ -7,29 +7,29 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Jenkins') {
+        stage('Jenkins1') {
             steps {
                 echo 'Jenkins'
             }
         }
-        stage('Jenkins') {
+        stage('Jenkins2') {
             steps {
                 echo 'Jenkins'
             }
         }
-        stage('Jenkins') {
-            steps {
-                echo 'Jenkins'
-            }
-        }
-
-        stage('Jenkins') {
+        stage('Jenkins3') {
             steps {
                 echo 'Jenkins'
             }
         }
 
-        stage('Jenkins') {
+        stage('Jenkins4') {
+            steps {
+                echo 'Jenkins'
+            }
+        }
+
+        stage('Jenkins5') {
             steps {
                 echo 'Jenkins'
             }
