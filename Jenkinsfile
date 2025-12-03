@@ -9,29 +9,29 @@ pipeline {
         }
         stage('Jenkins1') {
             steps {
-                echo 'Jenkins'
+                echo 'Jenkins1'
             }
         }
         stage('Jenkins2') {
             steps {
-                echo 'Jenkins'
+                echo 'Jenkins2'
             }
         }
         stage('Jenkins3') {
             steps {
-                echo 'Jenkins'
+                echo 'Jenkins3'
             }
         }
 
         stage('Jenkins4') {
             steps {
-                echo 'Jenkins'
+                echo 'Jenkins4'
             }
         }
 
         stage('Jenkins5') {
             steps {
-                echo 'Jenkins'
+                echo 'Jenkins5'
             }
         }
     }
