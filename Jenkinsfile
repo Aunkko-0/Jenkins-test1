@@ -17,6 +17,15 @@ pipeline {
                 echo 'jenkins'
             }
         }
-        
+        stage('333') {
+            steps {
+                echo '333'
+            }
+        }
+        stage('555') {
+            steps {
+                echo '666'
+            }
+        }
     }
 }
