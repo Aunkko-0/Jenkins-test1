@@ -4,11 +4,11 @@ pipeline {
     environment {
         REPO_URL = "https://github.com/Aunkko-0/Jenkins-test1.git"
         REGISTRY_URL = "docker.io"
-        IMAGE_NAME   = "jenkins-pipeline"
+        IMAGE_NAME   = "jenkins/jenkins"
         GITHUB_USERNAME = "Aunko-0"
         dockerImage  = "${REGISTRY_URL}/${IMAGE_NAME}:latest"
     }
-    
+
     stages {
         stage('Checkout Code') {
             steps {
