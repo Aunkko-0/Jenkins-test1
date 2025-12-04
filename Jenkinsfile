@@ -17,10 +17,5 @@ pipeline {
                 echo 'jenkins'
             }
         }
-        stage('101') {
-            steps {
-                echo '101'
-            }
-        }
     }
 }
