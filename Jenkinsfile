@@ -7,7 +7,10 @@ pipeline {
         IMAGE_NAME   = "jenkins-pipeline"
         GITHUB_USERNAME = "Aunko-0"
         dockerImage  = "${REGISTRY_URL}/${IMAGE_NAME}:latest"
+    }
 
+    tool {
+        docker 'docker-1'
     }
 
     stages {
