@@ -22,11 +22,14 @@ pipeline {
 
         stage('Docker Build Release') {
             steps {
-               sh """
-               docker build \
-                -t ${dockerImage} \
-                -f services/nest-service/Dockerfile \
-                .
+                // เพิ่มบรรทัดนี้เพื่อดูโครงสร้างไฟล์จริงๆ
+                sh "ls -R" 
+                
+                sh """
+                docker build \
+                 -t ${dockerImage} \
+                 -f services/nest-service/Dockerfile \
+                 .
                 """
             }
         }
